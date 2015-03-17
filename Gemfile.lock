@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    link_header (0.0.8)
+    rdf (1.1.9)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-n3 (1.1.2)
+      rdf (~> 1.1, >= 1.1.5)
+    ruby-ole (1.2.11.8)
+    spreadsheet (1.0.3)
+      ruby-ole (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rdf
+  rdf-n3
+  spreadsheet
