@@ -2,6 +2,7 @@ require 'rdf'
 require 'rdf/n3'
 require 'spreadsheet'
 require 'linkeddata'
+require 'active_support/inflector'
 
 include RDF
 
@@ -11,7 +12,7 @@ book = Spreadsheet.open 'lista-spitalelor-publice-ordonate-alfabetic.xls'
 sheet1 = book.worksheet 0
 counter = 0
 
-RDF::N3::Writer.open("lista_spitale.n3", :prefixes => {
+prefixes = {
       cotext: "http://opendata.cs.pub.ro/context/",
       foaf: "http://xmlns.com/foaf/0.1/",
       rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
@@ -23,15 +24,19 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => {
       fn: 'http://www.w3.org/2005/xpath-functions#',
       vcard: 'http://www.w3.org/2001/vcard-rdf/3.0#',
       ns1: 'http://opendata.cs.pub.ro/property/'
-    }) do |writer|
+    }
+
+RDF::N3::Writer.open("lista_spitale.n3", :prefixes => prefixes) do |writer|
   sheet1.to_enum.drop(1).each do |row|
     counter += 1
 
     break if counter == 6
-    # p row[3]
-    hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[3]}".gsub(' ', '_').tr("'\"“”", ""))
+
+    hospital_name = ActiveSupport::Inflector.transliterate(row[3].tr("'\"“”", ""))
+    hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{hospital_name.gsub(' ', '_')}")
+
+    # types
     graph = RDF::Graph.new << [
-      # row[3].gsub(' ', '_'),
         hospital_link,
         RDF.type,
         RDF::URI.new("http://dbpedia.org/class/yago/HospitalsInRomania")
@@ -39,22 +44,31 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => {
 
     graph << [
       hospital_link,
-      RDFS.label,
-      row[3]
+      RDF.type,
+      RDF::URI.new('http://schema.org/Hospital')
     ]
 
+    # label
+    graph << [
+      hospital_link,
+      RDFS.label,
+      hospital_name
+    ]
+
+    # sameAs
     graph << [
         hospital_link,
         OWL.sameAs,
         RDF::URI.new("http://dbpedia.org/class/yago/Hospital103540595")
       ]
+
+    # spital_in_judet
     graph << [
-      # row[3].gsub(' ', '_'),
       hospital_link,
-      # FOAF.knows,
       RDF::Vocabulary.new('http://opendata.cs.pub.ro/property/')['spital_in_judet'],
       RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4]}")
     ]
+    
     p graph.data.first
     writer << graph
   end
