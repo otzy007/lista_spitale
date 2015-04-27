@@ -29,7 +29,7 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => {
 
     break if counter == 6
     # p row[3]
-    hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[3]}".gsub(' ', '_'))
+    hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[3]}".gsub(' ', '_').tr("'\"“”", ""))
     graph = RDF::Graph.new << [
       # row[3].gsub(' ', '_'),
         hospital_link,
@@ -44,7 +44,7 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => {
     ]
 
     graph << [
-        RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[3]}".gsub(' ', '_')),
+        hospital_link,
         OWL.sameAs,
         RDF::URI.new("http://dbpedia.org/class/yago/Hospital103540595")
       ]
