@@ -3,6 +3,7 @@ require 'rdf/n3'
 require 'spreadsheet'
 require 'linkeddata'
 require 'active_support/inflector'
+require 'dbpedia'
 
 include RDF
 
@@ -55,12 +56,6 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => prefixes) do |writer|
       hospital_name
     ]
 
-    # sameAs
-    graph << [
-        hospital_link,
-        OWL.sameAs,
-        RDF::URI.new("http://dbpedia.org/class/yago/Hospital103540595")
-      ]
 
     # spital_in_judet
     graph << [
@@ -68,7 +63,7 @@ RDF::N3::Writer.open("lista_spitale.n3", :prefixes => prefixes) do |writer|
       RDF::Vocabulary.new('http://opendata.cs.pub.ro/property/')['spital_in_judet'],
       RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4]}")
     ]
-    
+
     p graph.data.first
     writer << graph
   end
