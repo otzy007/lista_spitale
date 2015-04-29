@@ -59,13 +59,13 @@ def import_spitale
 
 
       # spital_in_judet
-      # if row[4]
-      #   graph << [
-      #     hospital_link,
-      #     RDF::Vocabulary.new('http://opendata.cs.pub.ro/property/')['spital_in_judet'],
-      #     RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4]}_Judet")
-      #   ]
-      # end
+      if row[4]
+        graph << [
+          hospital_link,
+          VCARD.region,
+          RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4]}_Judet")
+        ]
+      end
 
       # clasificare
       if row[2]
