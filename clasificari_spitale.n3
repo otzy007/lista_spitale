@@ -1,0 +1,7 @@
+@prefix ns1: <http://opendata.cs.pub.ro/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV> a ns1:clasificare_spital;
+   rdfs:label "IV" .

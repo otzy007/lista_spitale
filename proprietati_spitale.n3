@@ -1,0 +1,16 @@
+@prefix ns1: <http://opendata.cs.pub.ro/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:clasificare_spital a rdf:property;
+   rdfs:label "clasificare_spital" .
+
+ns1:detalii_organizare_spital a rdf:property;
+   rdfs:label "detalii_organizare_spital" .
+
+ns1:regiune_dezvoltare a rdf:property;
+   rdfs:label "regiune_dezvoltare" .
+
+ns1:spital_in_judet a rdf:property;
+   rdfs:label "spital_in_judet" .
