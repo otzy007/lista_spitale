@@ -8,6 +8,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     builder (3.2.2)
+    dbpedia (0.0.1)
+      nokogiri (>= 1.5.5)
     ebnf (0.3.6)
       haml (~> 4.0)
       rdf (~> 1.1)
@@ -111,6 +113,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  dbpedia
   linkeddata
   rdf
   rdf-n3
