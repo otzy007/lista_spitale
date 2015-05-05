@@ -3,5 +3,47 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_II> a ns1:clasificare_spital;
+   rdfs:label "II" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_III> a ns1:clasificare_spital;
+   rdfs:label "III" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_> a ns1:clasificare_spital;
+   rdfs:label "III  plan conf " .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM> a ns1:clasificare_spital;
+   rdfs:label "IIM" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM_plan_conf> a ns1:clasificare_spital;
+   rdfs:label "IIM plan conf" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_M> a ns1:clasificare_spital;
+   rdfs:label "II M" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_II__plan_conf_> a ns1:clasificare_spital;
+   rdfs:label "II  plan conf " .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_> a ns1:clasificare_spital;
+   rdfs:label "II plan conf " .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM> a ns1:clasificare_spital;
+   rdfs:label "IM" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV> a ns1:clasificare_spital;
+   rdfs:label "IV" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV_plan_conf> a ns1:clasificare_spital;
+   rdfs:label "IV plan conf" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_M> a ns1:clasificare_spital;
+   rdfs:label "I M" .
+
 <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_> a ns1:clasificare_spital;
    rdfs:label "I plan conf " .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_V> a ns1:clasificare_spital;
+   rdfs:label "V" .
+
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_V_plan_conf_> a ns1:clasificare_spital;
+   rdfs:label "V plan conf " .
