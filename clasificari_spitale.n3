@@ -3,5 +3,5 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV> a ns1:clasificare_spital;
-   rdfs:label "IV" .
+<http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_> a ns1:clasificare_spital;
+   rdfs:label "I plan conf " .
