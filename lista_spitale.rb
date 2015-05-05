@@ -17,7 +17,7 @@ include RDF
       owl: 'http://www.w3.org/2002/07/owl#',
       sesame: 'http://www.openrdf.org/schema/sesame#',
       fn: 'http://www.w3.org/2005/xpath-functions#',
-      vcard: 'http://www.w3.org/2001/vcard-rdf/3.0#',
+      vcard: VCARD.to_uri,
       ns1: 'http://opendata.cs.pub.ro/property/'
     }
 
@@ -32,7 +32,7 @@ def import_spitale
     sheet1.to_enum.drop(1).each do |row|
       counter += 1
 
-      break if counter == 6
+      # break if counter == 6
 
       hospital_name = ActiveSupport::Inflector.transliterate(row[3].tr("'\"“”", ""))
       hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{hospital_name.gsub(' ', '_')}")
@@ -59,11 +59,11 @@ def import_spitale
 
 
       # spital_in_judet
-      if row[4]
+      if row[4] && row[4] != 'RETEA SANITARA PROPR'
         graph << [
           hospital_link,
           VCARD.region,
-          RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4]}_Judet")
+          RDF::URI.new("http://opendata.cs.pub.ro/resource/#{row[4].gsub(' ', '_')}_Judet")
         ]
       end
 
