@@ -5,20 +5,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://opendata.cs.pub.ro/resource/Academia_Romana_Spitalul_Universitar_de_Urgenta_Elias> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Academia Romana Spitalul Universitar de Urgenta Elias";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_B> .
 
 <http://opendata.cs.pub.ro/resource/Centru_de_recuperare_ACASA> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Centru de recuperare ACASA";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NV>;
    vcard:region <http://opendata.cs.pub.ro/resource/Salaj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Centrul_Medical_Clinic_de_Recuperare_Neuropsihomotorie_Copii_Dr._N._Robanescu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Centrul Medical Clinic de Recuperare Neuropsihomotorie Copii Dr. N. Robanescu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -26,7 +30,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Centrul_Medical_de_Evaluare_si_Recuperare_pentru_Copii_si_Tineri_Cristian_Serban_Buzias> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Centrul Medical de Evaluare si Recuperare pentru Copii si Tineri Cristian Serban Buzias";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -34,7 +40,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Centrul_de_Boli_Reumatismale_Ion_Stoia> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Rheumatology>;
    rdfs:label "Centrul de Boli Reumatismale Ion Stoia";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -66,7 +73,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Clinic_de_Urologie_si_Transplant_Renal> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Urology>;
    rdfs:label "Institutul Clinic de Urologie si Transplant Renal";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -74,7 +82,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Inimii_de_Urgenta_pentru_Boli_Cardiovasculare_N._Stancioiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Institutul Inimii de Urgenta pentru Boli Cardiovasculare N. Stancioiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -82,7 +92,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Boli_Infectioase_prof._dr._Matei_Bals> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Institutul National de Boli Infectioase prof. dr. Matei Bals";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -90,7 +101,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Diabet,_Nutritie_si_Boli_Metabolice_N.C._Paulescu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Nutrition>;
    rdfs:label "Institutul National de Diabet, Nutritie si Boli Metabolice N.C. Paulescu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -98,7 +110,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Endocrinologie_CI_Parhon> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Endocrinology>;
    rdfs:label "Institutul National de Endocrinologie CI Parhon";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -106,7 +119,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Geriatrie_si_Gerontologie_Ana_Aslan> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Geriatrics>;
    rdfs:label "Institutul National de Geriatrie si Gerontologie Ana Aslan";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -114,7 +128,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Neurologie_si_Boli_Neurovasculare> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Urology>,
+     <http://dbpedia.org/page/Neurology>;
    rdfs:label "Institutul National de Neurologie si Boli Neurovasculare";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -122,7 +138,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_National_de_Recuperare,_Medicina_Fizica_si_Balneoclimatologie> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Institutul National de Recuperare, Medicina Fizica si Balneoclimatologie";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -130,7 +147,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Oncologic_prof._dr._Al._Trestioreanu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Oncology>;
    rdfs:label "Institutul Oncologic prof. dr. Al. Trestioreanu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -138,7 +156,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Oncologic_prof._dr._I._Chiricuta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Oncology>;
    rdfs:label "Institutul Oncologic prof. dr. I. Chiricuta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -146,7 +165,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Regional_de_Gastroenterologie-Hepatologie_Prof._dr._Octavian_Fodor_Cluj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Gastroenterology>,
+     <http://dbpedia.org/page/Hepatology>;
    rdfs:label "Institutul Regional de Gastroenterologie-Hepatologie Prof. dr. Octavian Fodor Cluj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -154,14 +175,16 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_Regional_de_Oncologie_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Oncology>;
    rdfs:label "Institutul Regional de Oncologie Iasi";
    ns1:detalii_organizare_spital "HG 144";
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE>;
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_de_Boli_Cardiovasculare_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Institutul de Boli Cardiovasculare Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -169,7 +192,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_de_Boli_Cardiovasculare_prof._dr._G._I._M._Georgescu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Institutul de Boli Cardiovasculare prof. dr. G. I. M. Georgescu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -185,7 +209,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_de_Pneumoftiziologie_Marius_Nasta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Institutul de Pneumoftiziologie Marius Nasta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -193,7 +218,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Institutul_de_Urgenta_pentru_Boli_Cardiovasculare_prof._dr._C.C._Iliescu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Institutul de Urgenta pentru Boli Cardiovasculare prof. dr. C.C. Iliescu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_M>;
    ns1:detalii_organizare_spital "HG 144";
@@ -209,7 +236,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Administratiei_si_Internelor_Spitalul_Clinic_de_Urgenta_Avram_Iancu,_Oradea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Administratiei si Internelor Spitalul Clinic de Urgenta Avram Iancu, Oradea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NV> .
@@ -220,72 +248,85 @@
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Clinic_Militar_de_Urgenta_DR._Victor_Popescu_-_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Clinic Militar de Urgenta DR. Victor Popescu - Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_V> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Clinic_Militar_de_Urgenta_Dr._Iacob_Czihac-_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Clinic Militar de Urgenta Dr. Iacob Czihac- Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Clinic_Militar_de_Urgenta_Dr._Stefan_Odobleja-_Craiova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Clinic Militar de Urgenta Dr. Stefan Odobleja- Craiova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV_plan_conf>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SV> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Clinic_de_Urgenta_de_Boli_Cardiovasculare_Academician_Vasile_Candea-_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Clinic de Urgenta de Boli Cardiovasculare Academician Vasile Candea- Bucuresti";
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_B> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Cr._Alexandru_Gafencu-_Constanta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Cr. Alexandru Gafencu- Constanta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SE> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Dr._Alexandru_Augustin-_Sibiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Dr. Alexandru Augustin- Sibiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_C> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Dr._Alexandru_Popescu-_Focsani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Dr. Alexandru Popescu- Focsani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SE> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Dr._Aristide_Serfioti-_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Dr. Aristide Serfioti- Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SE> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Dr._Constantin_Papilian_?_Cluj_Napoca> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Dr. Constantin Papilian ? Cluj Napoca";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NV> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Dr._Ion_Jianu-_Pitesti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Dr. Ion Jianu- Pitesti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SV> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Militar_de_Urgenta_Regina_Maria_-_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Militar de Urgenta Regina Maria - Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_C> .
 
 <http://opendata.cs.pub.ro/resource/Ministerul_Apararii_Nationale_Spitalul_Universitar_de_Urgenta_Militar_Central_Dr._Carol_Davila_-_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Ministerul Apararii Nationale Spitalul Universitar de Urgenta Militar Central Dr. Carol Davila - Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE> .
@@ -424,7 +465,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bacau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Preventoriul_TBC_Ilisua_Consiliul_Local_Uriu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Preventoriul TBC Ilisua Consiliul Local Uriu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -432,7 +474,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bistrita_Nasaud_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Preventoriul_TBC_pentru_Copii_Deleni_Consiliul_Local_Deleni> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Preventoriul TBC pentru Copii Deleni Consiliul Local Deleni";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -447,7 +491,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Salaj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_Balnear_si_de_Recuperare_Mangalia> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Sanatoriul Balnear si de Recuperare Mangalia";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -455,7 +500,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_Balnear_si_de_Recuperare_Techirghiol> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Sanatoriul Balnear si de Recuperare Techirghiol";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -463,7 +509,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_Balneoclimateric_de_Copii_Busteni> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Sanatoriul Balneoclimateric de Copii Busteni";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -471,7 +518,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_de_Neuropsihiatrie_Podriga_Consiliul_Judetean_Botosani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>,
+     <http://dbpedia.org/page/Neuropsychiatry>;
    rdfs:label "Sanatoriul de Neuropsihiatrie Podriga Consiliul Judetean Botosani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -487,7 +536,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_de_Pneumoftiziologie_Brad_Consiliul_Judetean_Hunedoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Sanatoriul de Pneumoftiziologie Brad Consiliul Judetean Hunedoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -495,7 +545,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Hunedoara_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Sanatoriul_de_Pneumoftiziologie_Geoagiu_Consiliul_Judetean_Hunedoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Sanatoriul de Pneumoftiziologie Geoagiu Consiliul Judetean Hunedoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -551,7 +602,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Mures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Arad_Consiliul_Judetean_Arad> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Arad Consiliul Judetean Arad";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -559,7 +611,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arad_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -567,7 +620,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Cluj-Napoca> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Cluj-Napoca";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -575,7 +629,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Constanta_Consiliul_Judetean_Constanta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Constanta Consiliul Judetean Constanta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -583,7 +638,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Craiova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Craiova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -591,7 +647,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dolj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Ilfov_Consiliul_Judetean_Ilfov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Ilfov Consiliul Judetean Ilfov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -599,7 +656,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Ilfov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Oradea_Consiliul_Local_al_MunicipiuluiOradea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Oradea Consiliul Local al MunicipiuluiOradea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II>;
    ns1:detalii_organizare_spital "HG 529";
@@ -607,7 +665,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bihor_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Sf._Apostol_Andrei_Consiliul_Judetean_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Sf. Apostol Andrei Consiliul Judetean Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -615,7 +674,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Sf._Spiridon> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Sf. Spiridon";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -623,7 +683,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Sibiu_Consiliul_Judetean_Sibiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Sibiu Consiliul Judetean Sibiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -631,7 +692,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Sibiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Targu_Mures> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Targu Mures";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -639,7 +701,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Mures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Judetean_de_Urgenta_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Judetean de Urgenta Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -671,7 +734,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bihor_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_Municipal_de_Urgenta_Timisoara_Consiliul_Local_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic Municipal de Urgenta Timisoara Consiliul Local Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -703,7 +767,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_Cluj_Napoca_Consiliul_Judetean_Cluj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase Cluj Napoca Consiliul Judetean Cluj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -711,7 +776,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_Constanta_Consiliul_Local_Constanta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase Constanta Consiliul Local Constanta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -719,7 +785,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_Iasi_Consiliul_Judetean_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase Iasi Consiliul Judetean Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM_plan_conf>;
    ns1:detalii_organizare_spital "HG 529";
@@ -727,7 +794,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_Timisoara_Consiliul_Local_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase Timisoara Consiliul Local Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -735,7 +803,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_Victor_Babes_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase Victor Babes Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -743,7 +812,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Boli_Infectioase_si_Pneumoftiziologie_Craiova_babes_Consiliul_Local_Craiova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul Clinic de Boli Infectioase si Pneumoftiziologie Craiova babes Consiliul Local Craiova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM_plan_conf>;
    ns1:detalii_organizare_spital "HG 529";
@@ -751,7 +822,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dolj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Chirurgie_Oro-maxilo-faciala_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Oral_and_maxillofacial_surgery>;
    rdfs:label "Spitalul Clinic de Chirurgie Oro-maxilo-faciala Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -759,7 +831,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Copii_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Copii Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_M>;
    ns1:detalii_organizare_spital "HG 529";
@@ -767,7 +840,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Copii_Gomoiu_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Copii Gomoiu Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -775,7 +849,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Nefrologie_Dr._Carol_Davila_BucureSti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Nephrology>;
    rdfs:label "Spitalul Clinic de Nefrologie Dr. Carol Davila BucureSti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -783,7 +858,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Neuropsihiatrie_Craiova_Consiliul_Local_Craiova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>,
+     <http://dbpedia.org/page/Neuropsychiatry>;
    rdfs:label "Spitalul Clinic de Neuropsihiatrie Craiova Consiliul Local Craiova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM_plan_conf>;
    ns1:detalii_organizare_spital "HG 529";
@@ -791,7 +868,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dolj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Obstetrica-Ginecologie_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul Clinic de Obstetrica-Ginecologie Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -799,7 +877,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Obstetrica-Ginecologie_Iasi_CUZA_VODA_Consiliul_Judetean_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul Clinic de Obstetrica-Ginecologie Iasi CUZA VODA Consiliul Judetean Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -807,7 +886,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Obstetrica-Ginecologie_Iasi_ELENA_DOAMNA_Consiliul_Judetean_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul Clinic de Obstetrica-Ginecologie Iasi ELENA DOAMNA Consiliul Judetean Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -815,7 +895,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Obstetrica-Ginecologie_Panait_Sirbu_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul Clinic de Obstetrica-Ginecologie Panait Sirbu Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -823,7 +904,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Obstetrica_si_Ginecologie_Filantropia> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul Clinic de Obstetrica si Ginecologie Filantropia";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_M>;
    ns1:detalii_organizare_spital "HG 144";
@@ -831,7 +913,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Ortopedie-Traumatologie_Foisor_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Orthopedic_surgery>;
    rdfs:label "Spitalul Clinic de Ortopedie-Traumatologie Foisor Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_M>;
    ns1:detalii_organizare_spital "HG 529";
@@ -839,7 +922,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Pediatrie_Sibiu_Consiliul_Local_Sibiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Pediatrie Sibiu Consiliul Local Sibiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -847,7 +931,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Sibiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Pneumoftiziologie_Cluj_Napoca_Consiliul_Judetean_Cluj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul Clinic de Pneumoftiziologie Cluj Napoca Consiliul Judetean Cluj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -855,7 +940,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Pneumoftiziologie_Constanta_Consiliul_Judetean_Constanta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul Clinic de Pneumoftiziologie Constanta Consiliul Judetean Constanta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -863,7 +949,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Pneumoftiziologie_Iasi_Consiliul_Judetean_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul Clinic de Pneumoftiziologie Iasi Consiliul Judetean Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -871,7 +958,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Psihiatrie_Obregia_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul Clinic de Psihiatrie Obregia Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -879,7 +967,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Psihiatrie_Socola> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul Clinic de Psihiatrie Socola";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -887,7 +976,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Recuperare,_Medicina_Fizica_si_Balneologie_Eforie_Nord> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul Clinic de Recuperare, Medicina Fizica si Balneologie Eforie Nord";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -895,7 +985,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Recuperare_Cluj-Napoca_Consiliul_Judetean_Cluj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul Clinic de Recuperare Cluj-Napoca Consiliul Judetean Cluj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -903,7 +994,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Recuperare_Iasi_Consiliul_Local_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul Clinic de Recuperare Iasi Consiliul Local Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -911,7 +1003,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Recuperare_Medicala_Baile_Felix> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul Clinic de Recuperare Medicala Baile Felix";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -919,7 +1012,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bihor_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgent_a_pt_Copii> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgent a pt Copii";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -927,7 +1021,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic de Urgenta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -935,7 +1030,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_Bagdasar-Arseni> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic de Urgenta Bagdasar-Arseni";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_M>;
    ns1:detalii_organizare_spital "HG 144";
@@ -943,7 +1039,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_Chirurgie_Plastica_Reparatorie_si_Arsi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Plastic_surgery>;
    rdfs:label "Spitalul Clinic de Urgenta Chirurgie Plastica Reparatorie si Arsi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_M>;
    ns1:detalii_organizare_spital "HG 144";
@@ -951,14 +1049,16 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_Iasi_OBLU> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic de Urgenta Iasi OBLU";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:regiune_dezvoltare <http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE>;
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_Sf._Ioan> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic de Urgenta Sf. Ioan";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II>;
    ns1:detalii_organizare_spital "HG 144";
@@ -966,7 +1066,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_Sf._Pantelimon> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Clinic de Urgenta Sf. Pantelimon";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -974,7 +1075,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_pentru_Copii_Grigore_Alexandrescu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgenta pentru Copii Grigore Alexandrescu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -982,7 +1085,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_pentru_Copii_M.S._Curie> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgenta pentru Copii M.S. Curie";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 144";
@@ -990,7 +1095,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_pentru_Copii_SF_MARIA_Iasi_Consiliul_Judetean_Iasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgenta pentru Copii SF MARIA Iasi Consiliul Judetean Iasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM_plan_conf>;
    ns1:detalii_organizare_spital "HG 529";
@@ -998,7 +1105,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_pentru_Copii_Sf._Ioan_Galati_Consiliul_Local_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgenta pentru Copii Sf. Ioan Galati Consiliul Local Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1006,7 +1115,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgenta_pentru_Copii_Timisoara_Consiliul_Local_Timisoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul Clinic de Urgenta pentru Copii Timisoara Consiliul Local Timisoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1014,7 +1125,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Clinic_de_Urgente_Oftalmologice> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Ophthalmology>;
    rdfs:label "Spitalul Clinic de Urgente Oftalmologice";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_M>;
    ns1:detalii_organizare_spital "HG 144";
@@ -1038,7 +1150,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Alba_Iulia_Consiliul_Judetean_Alba> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Alba Iulia Consiliul Judetean Alba";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1046,7 +1159,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Alba_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Alexandria_Consiliul_Judetean_Teleorman> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Alexandria Consiliul Judetean Teleorman";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1054,7 +1168,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Teleorman_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Bacau_Consiliul_Judetean_Bacau> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Bacau Consiliul Judetean Bacau";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1062,7 +1177,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bacau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Baia_Mare_Consiliul_Judetean_Maramures> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Baia Mare Consiliul Judetean Maramures";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1070,7 +1186,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Maramures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Bistrita_Consiliul_Judetean_Bistrita_Nasaud> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Bistrita Consiliul Judetean Bistrita Nasaud";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1078,7 +1195,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bistrita_Nasaud_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Buzau_Consiliul_Judetean_Buzau> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Buzau Consiliul Judetean Buzau";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1086,7 +1204,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Buzau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Calarasi_Consiliul_Judetean_Calarasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Calarasi Consiliul Judetean Calarasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1094,7 +1213,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Calarasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Deva_Consiliul_Judetean_Hunedoara> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Deva Consiliul Judetean Hunedoara";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1102,7 +1222,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Hunedoara_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Dr._Fogolyan_Kristof_Sfantu_Gheorghe_Consiliul_Judetean_Covasna> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Dr. Fogolyan Kristof Sfantu Gheorghe Consiliul Judetean Covasna";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1110,7 +1231,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Covasna_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Dr._Tr._Severin_Consiliul_Judetean_Mehedinti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Dr. Tr. Severin Consiliul Judetean Mehedinti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1118,7 +1240,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Mehedinti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Giurgiu_Consiliul_Judetean_Giurgiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Giurgiu Consiliul Judetean Giurgiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1126,7 +1249,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Giurgiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Mavromati_Botosani_Consiliul_Judetean_Botosani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Mavromati Botosani Consiliul Judetean Botosani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1134,7 +1258,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Botosani_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Miercurea-Ciuc_Consiliul_Judetean_Harghita> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Miercurea-Ciuc Consiliul Judetean Harghita";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1142,7 +1267,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Harghita_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Piatra-Neamt_Consiliul_Judetean_Neamt> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Piatra-Neamt Consiliul Judetean Neamt";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1150,7 +1276,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Neamt_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Pitesti_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Pitesti Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1158,7 +1285,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Ploiesti_Consiliul_Judetean_Prahova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Ploiesti Consiliul Judetean Prahova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1166,7 +1294,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Ramnicu_Valcea_Consiliul_Judetean_Valcea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Ramnicu Valcea Consiliul Judetean Valcea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1174,7 +1303,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Valcea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Resita_Consiliul_Judetean_Caras_Severin> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Resita Consiliul Judetean Caras Severin";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1182,7 +1312,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Caras_Severin_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Satu_Mare_Consiliul_Judetean_Satu_Mare> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Satu Mare Consiliul Judetean Satu Mare";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1190,7 +1321,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Satu_Mare_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Sf._Pantelimon_Focsani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Sf. Pantelimon Focsani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 144";
@@ -1198,7 +1330,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Vrancea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Slatina_Consiliul_Judetean_Olt> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Slatina Consiliul Judetean Olt";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1206,7 +1339,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Olt_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Slobozia_Consiliul_Judetean_Ialomita> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Slobozia Consiliul Judetean Ialomita";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1214,7 +1348,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Ialomita_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Suceava_Consiliul_Judetean_Suceava> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Suceava Consiliul Judetean Suceava";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1222,7 +1357,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Suceava_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Targoviste_Consiliul_Judetean_Dambovita> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Targoviste Consiliul Judetean Dambovita";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1230,7 +1366,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dambovita_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Targu_Jiu_Consiliul_Judetean_Gorj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Targu Jiu Consiliul Judetean Gorj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1238,7 +1375,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Gorj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Tulcea_Consiliul_Judetean_Tulcea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Tulcea Consiliul Judetean Tulcea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1246,7 +1384,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Tulcea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Vaslui_Consiliul_Judetean_Vaslui> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Vaslui Consiliul Judetean Vaslui";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1254,7 +1393,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Vaslui_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Judetean_de_Urgenta_Zalau_Consiliul_Judetean_Salaj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Judetean de Urgenta Zalau Consiliul Judetean Salaj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1262,7 +1402,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Salaj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Militar_de_Urgenta_Prof._Dr._Agrippa_Ionescu_Bucuresti_SRI> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Militar de Urgenta Prof. Dr. Agrippa Ionescu Bucuresti SRI";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II__plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -1725,7 +1866,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Hunedoara_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Municipal_de_Urgenta_Barlad_Consiliul_Local_Barlad> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Municipal de Urgenta Barlad Consiliul Local Barlad";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1733,7 +1875,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Vaslui_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Municipal_de_Urgenta_Caransebes_Consiliul_Local_Caransebes> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Municipal de Urgenta Caransebes Consiliul Local Caransebes";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1741,7 +1884,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Caras_Severin_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Municipal_de_Urgenta_Moinesti_Consiliul_Local_Moinesti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Municipal de Urgenta Moinesti Consiliul Local Moinesti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -1749,7 +1893,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bacau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Municipal_de_Urgenta_Roman_Consiliul_Local_Roman> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Municipal de Urgenta Roman Consiliul Local Roman";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2286,7 +2431,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Mures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_Universitar_de_Urgenta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul Universitar de Urgenta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_I_plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2342,7 +2488,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Buzau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Boli_Infectioase_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul de Boli Infectioase Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2350,7 +2497,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Boli_Infectioase_Galati_Consiliul_Judetean_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul de Boli Infectioase Galati Consiliul Judetean Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2358,7 +2506,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Boli_Infectioase_Ploiesti_Consiliul_Local_Ploiesti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul de Boli Infectioase Ploiesti Consiliul Local Ploiesti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2366,7 +2515,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Boli_Infectioase_si_Psihiatrie_Baia_Mare_Consiliul_Judetean_Maramures> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
    rdfs:label "Spitalul de Boli Infectioase si Psihiatrie Baia Mare Consiliul Judetean Maramures";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2382,7 +2533,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Cluj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Boli_Pulmonare_Breaza_Consiliul_Local_Breaza> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Boli Pulmonare Breaza Consiliul Local Breaza";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2390,7 +2542,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Cardiologie_Covasna> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Cardiology>;
    rdfs:label "Spitalul de Cardiologie Covasna";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2398,7 +2551,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Covasna_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Geriatrie_si_Boli_Cronice_Stefanesti_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Geriatrics>;
    rdfs:label "Spitalul de Geriatrie si Boli Cronice Stefanesti Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2406,7 +2560,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Obstetrica-Ginecologie_Galati_Consiliul_Local_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul de Obstetrica-Ginecologie Galati Consiliul Local Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2414,7 +2569,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Obstetrica-Ginecologie_Ploiesti_Consiliul_Judetean_Prahova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
    rdfs:label "Spitalul de Obstetrica-Ginecologie Ploiesti Consiliul Judetean Prahova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2428,7 +2584,9 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Ilfov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Ortopedie,_Traumatologie_si_Recuperare_Medicala_Eforie_Sud_Consiliul_Judetean_Constanta> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Orthopedic_surgery>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul de Ortopedie, Traumatologie si Recuperare Medicala Eforie Sud Consiliul Judetean Constanta";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2436,7 +2594,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Constanta_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Ortopedie_si_Traumatologie_Azuga_Consiliul_Local_Azuga> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Orthopedic_surgery>;
    rdfs:label "Spitalul de Ortopedie si Traumatologie Azuga Consiliul Local Azuga";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2444,7 +2603,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pediatrie_Pitesti_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul de Pediatrie Pitesti Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2452,7 +2612,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pediatrie_Ploiesti_Consiliul_Judetean_Prahova> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pediatrics>;
    rdfs:label "Spitalul de Pediatrie Ploiesti Consiliul Judetean Prahova";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2460,7 +2621,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Aiud_Consiliul_Judetean_Alba> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Aiud Consiliul Judetean Alba";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2468,7 +2630,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Alba_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Bacau_Consiliul_Local_Bacau> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Bacau Consiliul Local Bacau";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2476,7 +2639,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bacau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Baia_Mare_Consiliul_Local_Baia_Mare> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Baia Mare Consiliul Local Baia Mare";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2484,7 +2648,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Maramures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Bisericani_Consiliul_Local_Alexandru_cel_Bun> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Bisericani Consiliul Local Alexandru cel Bun";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2492,7 +2657,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Neamt_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Botosani_Consiliul_Local_Botosani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Botosani Consiliul Local Botosani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2500,7 +2666,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Botosani_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Braila_Consiliul_Judetean_Braila> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Braila Consiliul Judetean Braila";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2508,7 +2675,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Braila_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2516,7 +2684,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Calarasi_Consiliul_Judetean_Calarasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Calarasi Consiliul Judetean Calarasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2524,7 +2693,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Calarasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Campulung_Consiliul_Local_al_Municipiului_Campulung> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Campulung Consiliul Local al Municipiului Campulung";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2532,7 +2702,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Drajna_Consiliul_Local_Drajna> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Drajna Consiliul Local Drajna";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2540,7 +2711,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Floresti_Consiliul_Local_Floresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Floresti Consiliul Local Floresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2548,7 +2720,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Galati_Consiliul_Judetean_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Galati Consiliul Judetean Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2556,7 +2729,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Izvoru_Consiliul_Judetean_Giurgiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Izvoru Consiliul Judetean Giurgiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2564,7 +2738,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Giurgiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Leamna_Consiliul_Judetean_Dolj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Leamna Consiliul Judetean Dolj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2572,7 +2747,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dolj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Leordeni_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Leordeni Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2580,7 +2756,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Mihaesti_Consiliul_Judetean_Valcea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Mihaesti Consiliul Judetean Valcea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2588,7 +2765,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Valcea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Rosiori_de_Vede_Consiliul_Judetean_Teleorman> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Rosiori de Vede Consiliul Judetean Teleorman";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2596,7 +2774,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Teleorman_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Runcu_Consiliul_Judetean_Gorj> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Runcu Consiliul Judetean Gorj";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2604,7 +2783,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Gorj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Satu_Mare_Consiliul_Judetean_Satu_Mare> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Satu Mare Consiliul Judetean Satu Mare";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2612,7 +2792,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Satu_Mare_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Sf._Andrei_Valea_Iasului_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Sf. Andrei Valea Iasului Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2620,7 +2801,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Sf._Stefan> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Sf. Stefan";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2628,7 +2810,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Pneumoftiziologie_Sibiu_Consiliul_Judetean_Sibiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Pulmonology>;
    rdfs:label "Spitalul de Pneumoftiziologie Sibiu Consiliul Judetean Sibiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2636,7 +2819,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Sibiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Balaceanca_Consiliul_Judetean_Ilfov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Balaceanca Consiliul Judetean Ilfov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2644,7 +2828,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Ilfov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Campulung_Moldovenesc_Consiliul_Local_Campulung_Moldovenesc> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Campulung Moldovenesc Consiliul Local Campulung Moldovenesc";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2652,7 +2837,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Suceava_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Capalnas_Consiliul_Judetean_Arad> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Capalnas Consiliul Judetean Arad";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V_plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2660,7 +2846,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arad_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Cavnic_Consiliul_Local_Cavnic> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Cavnic Consiliul Local Cavnic";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2668,7 +2855,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Maramures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Cronici_Dumbraveni> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Cronici Dumbraveni";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2676,7 +2864,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Vrancea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Cronici_Schitu_Greci_Consiliul_Judetean_Olt> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Cronici Schitu Greci Consiliul Judetean Olt";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2684,7 +2873,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Olt_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Cronici_Siret_Consiliul_Local_Siret> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Cronici Siret Consiliul Local Siret";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2692,7 +2882,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Suceava_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Dr._Gheorghe_Preda_Sibiu_Consiliul_Judetean_Sibiu> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Dr. Gheorghe Preda Sibiu Consiliul Judetean Sibiu";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2700,7 +2891,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Sibiu_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Dragoesti_Consiliul_Judetean_Valcea> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Dragoesti Consiliul Judetean Valcea";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2708,7 +2900,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Valcea_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Elisabeta_Doamna_Galati_Consiliul_Local_Galati> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Elisabeta Doamna Galati Consiliul Local Galati";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2716,7 +2909,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Galati_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Gataia> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Gataia";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2724,7 +2918,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Mocrea_Consiliul_Judetean_Arad> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Mocrea Consiliul Judetean Arad";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2732,7 +2927,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arad_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Murgeni_Consiliul_Local_Murgeni> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Murgeni Consiliul Local Murgeni";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2740,7 +2936,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Vaslui_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Nucet_Consiliul_Judetean_Bihor> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Nucet Consiliul Judetean Bihor";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2748,7 +2945,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bihor_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Poiana_Mare> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Poiana Mare";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2756,7 +2954,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Dolj_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Poroschia_Consiliul_Judetean_Teleorman> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Poroschia Consiliul Judetean Teleorman";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2764,7 +2963,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Teleorman_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Sapunari_Consiliul_Judetean_Calarasi> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Sapunari Consiliul Judetean Calarasi";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2772,7 +2972,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Calarasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Sf._Maria_Vedea_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Sf. Maria Vedea Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2780,7 +2981,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Sf._Nicolae_Roman_Consiliul_Judetean_Neamt> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Sf. Nicolae Roman Consiliul Judetean Neamt";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2788,7 +2990,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Neamt_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Sf._Pantelimon_Braila_Consiliul_Local_Braila> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Sf. Pantelimon Braila Consiliul Local Braila";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2796,7 +2999,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Braila_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Titan_Gorgos_Primaria_Municipiului_Bucuresti> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Titan Gorgos Primaria Municipiului Bucuresti";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2804,7 +3008,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bucuresti_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Tulghes_Consiliul_Judetean_Harghita> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Tulghes Consiliul Judetean Harghita";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2812,7 +3017,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Harghita_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Voila_Consiliul_Local_Campina> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Voila Consiliul Local Campina";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2820,7 +3026,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Prahova_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_Zam> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie Zam";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2828,7 +3035,10 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Hunedoara_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_si_Neurologie_Brasov_Consiliul_Judetean_Brasov> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Urology>,
+     <http://dbpedia.org/page/Neurology>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie si Neurologie Brasov Consiliul Judetean Brasov";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IIM>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2836,7 +3046,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Brasov_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_si_pentru_Masuri_de_Siguranta_Jebel> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie si pentru Masuri de Siguranta Jebel";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2844,7 +3055,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Timis_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_si_pentru_Masuri_de_Siguranta_Padureni_Grajduri> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie si pentru Masuri de Siguranta Padureni Grajduri";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2852,7 +3064,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Iasi_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_si_pentru_Masuri_de_Siguranta_Sapoca> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie si pentru Masuri de Siguranta Sapoca";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2860,7 +3073,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Buzau_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Psihiatrie_si_pentru_Masuri_de_Siguranta_Stei> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Psychiatry>;
    rdfs:label "Spitalul de Psihiatrie si pentru Masuri de Siguranta Stei";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2868,7 +3082,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Bihor_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Recuperare_Borsa> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul de Recuperare Borsa";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_IV>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2876,7 +3091,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Maramures_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Recuperare_Bradet_Consiliul_Judetean_Arges> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul de Recuperare Bradet Consiliul Judetean Arges";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2884,7 +3100,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arges_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Recuperare_Neuromotorie_dr._Corneliu_Barsan_Dezna> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul de Recuperare Neuromotorie dr. Corneliu Barsan Dezna";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 144";
@@ -2892,7 +3109,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Arad_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Recuperare_Sf._Gheorghe_Botosani_Consiliul_Local_Botosani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Physical_medicine_and_rehabilitation>;
    rdfs:label "Spitalul de Recuperare Sf. Gheorghe Botosani Consiliul Local Botosani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_V>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2900,7 +3118,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Botosani_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Urgenta_Judetean_Braila_Consiliul_Judetean_Braila> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul de Urgenta Judetean Braila Consiliul Judetean Braila";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2908,7 +3127,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Braila_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Urgenta_Petrosani_Consiliul_Local_Petrosani> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul de Urgenta Petrosani Consiliul Local Petrosani";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_III__plan_conf_>;
    ns1:detalii_organizare_spital "HG 529";
@@ -2916,7 +3136,8 @@
    vcard:region <http://opendata.cs.pub.ro/resource/Hunedoara_Judet> .
 
 <http://opendata.cs.pub.ro/resource/Spitalul_de_Urgenta_Prof.dr._Dimitrie_Gerota_Bucuresti_MAI> a <http://dbpedia.org/class/yago/HospitalsInRomania>,
-     <http://schema.org/Hospital>;
+     <http://schema.org/Hospital>,
+     <http://dbpedia.org/page/Emergency_medicine>;
    rdfs:label "Spitalul de Urgenta Prof.dr. Dimitrie Gerota Bucuresti MAI";
    ns1:clasificare_spital <http://opendata.cs.pub.ro/resource/Clasificare_Spital_II__plan_conf_>;
    ns1:detalii_organizare_spital "HG 144";

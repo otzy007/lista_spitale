@@ -5,6 +5,8 @@ require 'linkeddata'
 require 'active_support/inflector'
 require 'dbpedia'
 
+load 'speciality.rb'
+
 include RDF
 
  $prefixes = {
@@ -33,7 +35,7 @@ def import_spitale
       sheet1.to_enum.drop(1).each do |row|
         counter += 1
 
-        # break if counter == 6
+        # break if counter == 104
 
         hospital_name = ActiveSupport::Inflector.transliterate(row[3].tr("'\"“”", ""))
         hospital_link = RDF::URI.new("http://opendata.cs.pub.ro/resource/#{hospital_name.gsub(' ', '_')}")
@@ -105,7 +107,11 @@ def import_spitale
           RDF::URI.new("http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_#{row[1]}")
         ]
 
-        p graph.data.first
+        # specialitatea spitalului
+        speciality = add_speciality(hospital_name, hospital_link)
+p speciality
+        speciality.each { |s| graph << s }
+
         writer << graph
       end
     end
