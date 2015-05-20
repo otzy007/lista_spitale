@@ -45,12 +45,14 @@ def import_spitale
             hospital_link,
             RDF.type,
             RDF::URI.new("http://dbpedia.org/class/yago/HospitalsInRomania")
-          ]
-
-        graph << [
+          ] << [
           hospital_link,
           RDF.type,
           RDF::URI.new('http://schema.org/Hospital')
+        ] << [
+          hospital_link,
+          RDF.type,
+          RDF::URI.new('http://dbpedia.org/ontology/Hospital')
         ]
 
         # label
