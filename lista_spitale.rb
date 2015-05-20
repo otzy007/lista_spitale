@@ -109,7 +109,6 @@ def import_spitale
 
         # specialitatea spitalului
         speciality = add_speciality(hospital_name, hospital_link)
-p speciality
         speciality.each { |s| graph << s }
 
         writer << graph
