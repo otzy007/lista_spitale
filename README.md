@@ -23,5 +23,11 @@ The easiest way is with [rvm](http://rvm.io) with the command:
 
         ruby lista_spitale.rb
 
-5. Import first `regiuni_dezvoltare.n3`, then `proprietati_spitale.n3`, then
-`clasificari_spitale.n3`. Finally you can import `lista_spitale.n3`.
+5. Generate the number of beds in hospitals
+
+        ruby paturi_in_spitale.rb
+
+
+6. Import first `regiuni_dezvoltare.n3`, then `proprietati_spitale.n3`, then
+`clasificari_spitale.n3`. Finally you can import `lista_spitale.n3` and
+`paturi_spitale.n3`.
