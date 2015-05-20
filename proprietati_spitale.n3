@@ -12,7 +12,8 @@ ns1:detalii_organizare_spital a rdf:property;
 
 ns1:regiune_dezvoltare a rdf:property;
    rdfs:label "regiune_dezvoltare";
-   owl:sameAs <http://dbpedia.org/page/Development_regions_of_Romania> .
+   owl:sameAs <http://dbpedia.org/page/Development_regions_of_Romania>,
+     <http://yago-knowledge.org/resource/wikicategory_Development_regions_of_Romania> .
 
 ns1:spital_in_judet a rdf:property;
    rdfs:label "spital_in_judet" .
