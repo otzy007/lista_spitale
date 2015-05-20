@@ -1,28 +1,45 @@
 @prefix ns1: <http://opendata.cs.pub.ro/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_B> a ns1:regiune_dezvoltare;
-   rdfs:label "B" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_B> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "B";
+   owl:sameAs <http://dbpedia.org/page/Bucharest-Ilfov_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_C> a ns1:regiune_dezvoltare;
-   rdfs:label "C" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_C> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "C";
+   owl:sameAs <http://dbpedia.org/page/Centru_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE> a ns1:regiune_dezvoltare;
-   rdfs:label "NE" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NE> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "NE";
+   owl:sameAs <http://dbpedia.org/page/Nord-Est_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NV> a ns1:regiune_dezvoltare;
-   rdfs:label "NV" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_NV> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "NV";
+   owl:sameAs <http://dbpedia.org/page/Nord-Vest_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_S> a ns1:regiune_dezvoltare;
-   rdfs:label "S" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_S> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "S";
+   owl:sameAs <http://dbpedia.org/page/Sud_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SE> a ns1:regiune_dezvoltare;
-   rdfs:label "SE" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SE> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "SE";
+   owl:sameAs <http://dbpedia.org/page/Sud-Est_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SV> a ns1:regiune_dezvoltare;
-   rdfs:label "SV" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_SV> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "SV";
+   owl:sameAs <http://dbpedia.org/page/Sud-Vest_(development_region)> .
 
-<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_V> a ns1:regiune_dezvoltare;
-   rdfs:label "V" .
+<http://opendata.cs.pub.ro/resource/Regiune_Dezvoltare_V> a ns1:regiune_dezvoltare,
+     <http://dbpedia.org/page/Development_regions_of_Romania>;
+   rdfs:label "V";
+   owl:sameAs <http://dbpedia.org/page/Vest_(development_region)> .
