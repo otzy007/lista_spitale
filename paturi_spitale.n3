@@ -1,0 +1,66 @@
+@prefix ns1: <http://opendata.cs.pub.ro/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendata.cs.pub.ro/resource/paturi_boli_infectioase_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Infectious_disease_(medical_specialty)>;
+   rdfs:label "Boli infectioase";
+   ns1:numar_paturi_spitale_2013 "5422" .
+
+<http://opendata.cs.pub.ro/resource/paturi_dermato_venerice_2013> a <http://dbpedia.org/page/Specialty_(medicine)>;
+   rdfs:label "Dermato-venerice";
+   ns1:numar_paturi_spitale_2013 "1548" .
+
+<http://opendata.cs.pub.ro/resource/paturi_neurologie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Neurology>;
+   rdfs:label "Neurologie";
+   ns1:numar_paturi_spitale_2013 "5419" .
+
+<http://opendata.cs.pub.ro/resource/paturi_nou_nascuti_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Pediatrics>;
+   rdfs:label "Nou nascuti";
+   ns1:numar_paturi_spitale_2013 "4216" .
+
+<http://opendata.cs.pub.ro/resource/paturi_obstetrica_ginecologie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Obstetrics_and_gynaecology>;
+   rdfs:label "Obstetrica-Ginecologie";
+   ns1:numar_paturi_spitale_2013 "8452" .
+
+<http://opendata.cs.pub.ro/resource/paturi_oftalmologie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Ophthalmology>;
+   rdfs:label "Oftalmologie";
+   ns1:numar_paturi_spitale_2013 "1729" .
+
+<http://opendata.cs.pub.ro/resource/paturi_orl_2013> a <http://dbpedia.org/page/Specialty_(medicine)>;
+   rdfs:label "O.R.L";
+   ns1:numar_paturi_spitale_2013 "2236" .
+
+<http://opendata.cs.pub.ro/resource/paturi_pediatrie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Pediatrics>;
+   rdfs:label "Pediatrie";
+   ns1:numar_paturi_spitale_2013 "7580" .
+
+<http://opendata.cs.pub.ro/resource/paturi_pneumoftiziologie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Pulmonology>;
+   rdfs:label "Pneumoftiziologie";
+   ns1:numar_paturi_spitale_2013 "9039" .
+
+<http://opendata.cs.pub.ro/resource/paturi_psihiatrie_neuropsihiatrie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Psychiatry>,
+     <http://dbpedia.org/page/Neuropsychiatry>;
+   rdfs:label "Psihiatrie si neuropsihiatrie";
+   ns1:numar_paturi_spitale_2013 "16359" .
+
+<http://opendata.cs.pub.ro/resource/paturi_spital_chirurgie_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Surgery>;
+   rdfs:label "Chirurgie";
+   ns1:numar_paturi_spitale_2013 "20705" .
+
+<http://opendata.cs.pub.ro/resource/paturi_spital_interne_2013> a <http://dbpedia.org/page/Specialty_(medicine)>,
+     <http://dbpedia.org/page/Internal_medicine>;
+   rdfs:label "Interne";
+   ns1:numar_paturi_spitale_2013 "26198" .
+
+ns1:numar_paturi_spitale_2013 a rdf:property;
+   rdfs:label "numar_paturi_spital_2013" .
