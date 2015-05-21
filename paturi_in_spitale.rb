@@ -28,48 +28,48 @@ paturi = [
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_spital_interne_2013"),
     label: 'Interne',
     count: '26198',
-    type: RDF::URI.new("http://dbpedia.org/page/Internal_medicine")
+    type: RDF::URI.new("http://dbpedia.org/resource/Internal_medicine")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_spital_chirurgie_2013"),
     label: 'Chirurgie',
     count: '20705',
-    type: RDF::URI.new("http://dbpedia.org/page/Surgery")
+    type: RDF::URI.new("http://dbpedia.org/resource/Surgery")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_obstetrica_ginecologie_2013"),
     label: 'Obstetrica-Ginecologie',
     count: '8452',
-    type: RDF::URI.new("http://dbpedia.org/page/Obstetrics_and_gynaecology")
+    type: RDF::URI.new("http://dbpedia.org/resource/Obstetrics_and_gynaecology")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_nou_nascuti_2013"),
     label: 'Nou nascuti',
     count: '4216',
-    type: RDF::URI.new("http://dbpedia.org/page/Pediatrics")
+    type: RDF::URI.new("http://dbpedia.org/resource/Pediatrics")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_pediatrie_2013"),
     label: 'Pediatrie',
     count: '7580',
-    type: RDF::URI.new("http://dbpedia.org/page/Pediatrics")
+    type: RDF::URI.new("http://dbpedia.org/resource/Pediatrics")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_boli_infectioase_2013"),
     label: 'Boli infectioase',
     count: '5422',
-    type: RDF::URI.new("http://dbpedia.org/page/Infectious_disease_(medical_specialty)")
+    type: RDF::URI.new("http://dbpedia.org/resource/Infectious_disease_(medical_specialty)")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_pneumoftiziologie_2013"),
     label: 'Pneumoftiziologie',
     count: '9039',
-    type: RDF::URI.new("http://dbpedia.org/page/Pulmonology")
+    type: RDF::URI.new("http://dbpedia.org/resource/Pulmonology")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_psihiatrie_neuropsihiatrie_2013"),
     label: 'Psihiatrie si neuropsihiatrie',
     count: '16359',
-    type: RDF::URI.new("http://dbpedia.org/page/Psychiatry"),
-    type2: RDF::URI.new("http://dbpedia.org/page/Neuropsychiatry")
+    type: RDF::URI.new("http://dbpedia.org/resource/Psychiatry"),
+    type2: RDF::URI.new("http://dbpedia.org/resource/Neuropsychiatry")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_oftalmologie_2013"),
     label: 'Oftalmologie',
     count: '1729',
-    type: RDF::URI.new("http://dbpedia.org/page/Ophthalmology")
+    type: RDF::URI.new("http://dbpedia.org/resource/Ophthalmology")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_orl_2013"),
     label: 'O.R.L',
@@ -78,7 +78,7 @@ paturi = [
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_neurologie_2013"),
     label: 'Neurologie',
     count: '5419',
-    type: RDF::URI.new("http://dbpedia.org/page/Neurology")
+    type: RDF::URI.new("http://dbpedia.org/resource/Neurology")
   }, {
     uri: RDF::URI.new("http://opendata.cs.pub.ro/resource/paturi_dermato_venerice_2013"),
     label: 'Dermato-venerice',
@@ -109,7 +109,7 @@ RDF::N3::Writer.open("paturi_spitale.n3", :prefixes =>  $prefixes) do |writer|
     ] << [
       p[:uri],
       RDF.type,
-      RDF::URI.new('http://dbpedia.org/page/Specialty_(medicine)')
+      RDF::URI.new('http://dbpedia.org/resource/Specialty_(medicine)')
     ] << [
       p[:uri],
       RDF.type,

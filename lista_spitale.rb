@@ -162,7 +162,7 @@ def properties
     ] << [
       RDF::URI.new("http://opendata.cs.pub.ro/property/regiune_dezvoltare"),
       OWL.sameAs,
-      RDF::URI.new('http://dbpedia.org/page/Development_regions_of_Romania')
+      RDF::URI.new('http://dbpedia.org/resource/Development_regions_of_Romania')
     ] << [
       RDF::URI.new("http://opendata.cs.pub.ro/property/regiune_dezvoltare"),
       OWL.sameAs,

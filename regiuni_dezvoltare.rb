@@ -26,11 +26,11 @@ RDF::N3::Writer.open("regiuni_dezvoltare.n3", :prefixes =>  $prefixes) do |write
     ] << [
       region,
       RDF.type,
-      RDF::URI.new('http://dbpedia.org/page/Development_regions_of_Romania')
+      RDF::URI.new('http://dbpedia.org/resource/Development_regions_of_Romania')
     ] << [
       region,
       OWL.sameAs,
-      RDF::URI.new("http://dbpedia.org/page#{link}")
+      RDF::URI.new("http://dbpedia.org/resource#{link}")
     ]
   end
 end

@@ -38,7 +38,7 @@ def add_speciality(name, hospital_link)
       [
         hospital_link,
         RDF.type,
-        RDF::URI.new("http://dbpedia.org/page/#{v}")
+        RDF::URI.new("http://dbpedia.org/resource/#{v}")
       ]
     end
   end.compact
