@@ -110,6 +110,10 @@ RDF::N3::Writer.open("paturi_spitale.n3", :prefixes =>  $prefixes) do |writer|
       p[:uri],
       RDF.type,
       RDF::URI.new('http://dbpedia.org/page/Specialty_(medicine)')
+    ] << [
+      p[:uri],
+      RDF.type,
+      RDF::Vocabulary.new('http://opendata.cs.pub.ro/property/')['numar_paturi_spitale_2013']
     ]
 
     if p.key?(:type)
